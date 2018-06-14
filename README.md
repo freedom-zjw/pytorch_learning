@@ -102,5 +102,20 @@ chinese ver: https://pytorch-cn.readthedocs.io/zh/latest/ <br>&emsp;&emsp;&emsp;
     conda install pytorch torchvision cuda90 -c pytorch
     ```
 
-    ​
 
+
+### Models
+
+The directory `models/` has common deep learnning network models that were implemented by pytorch:
+
+`alexnet`, `VGG`, `ResNet`, `DenseNet`.
+
+
+
+### Example
+
+The direcoty `examples/` has simple examples for using pytorch
+
+`mnist.py`: A simple cnn to train and test mnist datasets
+
+To be add
