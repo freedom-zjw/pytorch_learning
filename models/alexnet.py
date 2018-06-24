@@ -43,7 +43,8 @@ class AlexNet(nn.Module):
         x = self.features(x)
         x = x.view(x.size(0), 256 * 6 * 6)
         x = self.classifier(x)
-        return nn.functional.log_softmax(x, dim=1)
+        # return nn.functional.log_softmax(x, dim=1)
+        return x
 
 
 def alexnet(pretrained=False, num_classes=1000, **kwargs):

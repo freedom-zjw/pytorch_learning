@@ -42,7 +42,8 @@ class VGG(nn.Module):
         x = self.features(x)
         x = x.view(x.size(0), -1)
         x = self.classifier(x)
-        return nn.functional.log_softmax(x, dim=1)
+        # return nn.functional.log_softmax(x, dim=1)
+        return x
 
     def _initialize_weights(self):
         for m in self.modules():
