@@ -108,14 +108,18 @@ chinese ver: https://pytorch-cn.readthedocs.io/zh/latest/ <br>&emsp;&emsp;&emsp;
 
 The directory `models/` has common deep learnning network models that were implemented by pytorch:
 
-`alexnet`, `VGG`, `ResNet`, `DenseNet`.
+`alexnet`<br>`VGG`<br>`ResNet`<br> `DenseNet`<br>`BNinception`<br>`caffe_resnet`<br>`fb_resnet`<br>`inception_resnetv2`<br>`inceptionv4`<br>`nasnet`<br>`nasnet_mobile`<br>`pnasnet`<br>`polynet`<br>`vggm`<br>`wide_resnet`<br>`xception`.<br>
+
+ps：由于模型最后没有经过softmax，所以多分类下loss function请使用CrossEntropyLoss。假如修改了代码让模型最后的输出经过了softmax，那么loss function使用NLLLoss(CrossEntropyLoss 等价于 softmax + NLLLoss)
 
 
 
 ### Example
 
-The direcoty `examples/` has simple examples for using pytorch
+The direcoty `examples/` has simple examples for using pytorch<br>
 
-`mnist.py`: A simple cnn to train and test mnist datasets
+`mnist.py`: A simple cnn to train and test mnist datasets<br>
+
+`FashionAI`: 阿里天池全球挑战赛-服饰属性标签识别
 
 To be add
