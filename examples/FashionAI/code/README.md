@@ -10,6 +10,10 @@
 
 - 将数据集下载到datasets文件夹。训练集命名为base，测试集命名为rank，热身数据集命名为web
 
+- 数据集下载地址：https://pan.baidu.com/s/1au14kMRKt_TuOVm80ruopw 
+
+  密码：`vqsg`
+
 ## Usage
 * 运行参数可用下面的命令查看
 
