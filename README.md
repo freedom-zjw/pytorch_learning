@@ -132,6 +132,12 @@ ps：由于模型最后没有经过softmax，所以多分类下loss function请�
 
 
 
+### pytorch版本升级带来的变化
+
+[0.3.1 -> 0.4](version/0.3.1-0.4.md)
+
+
+
 ### Example
 
 The direcoty `examples/` has simple examples for using pytorch<br>
