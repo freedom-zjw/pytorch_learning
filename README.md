@@ -48,7 +48,7 @@ chinese ver: https://pytorch-cn.readthedocs.io/zh/latest/ <br>&emsp;&emsp;&emsp;
 
     ```shell
     # for cuda8.0
-    conda install pytorch -c pytorch 
+    conda install pytorch cuda80 -c pytorch 
     # for cuda9.0
     conda install pytorch cuda90 -c pytorch 
     ```
@@ -123,6 +123,12 @@ ps：由于模型最后没有经过softmax，所以多分类下loss function请�
 ### How to train and test
 
 关于如何训练，如何测试，如何上GPU，点[这里](run/README.md)
+
+
+
+### How to store and load model
+
+关于如何保存训练好的模型、加载模型 以及 fine-tune 点[这里](store/README.md)
 
 
 
