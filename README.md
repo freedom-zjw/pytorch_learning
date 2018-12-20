@@ -120,6 +120,12 @@ ps：由于模型最后没有经过softmax，所以多分类下loss function请�
 
 
 
+### How to train and test
+
+关于如何训练，如何测试，如何上GPU，点[这里](run/README.md)
+
+
+
 ### Example
 
 The direcoty `examples/` has simple examples for using pytorch<br>
