@@ -114,6 +114,12 @@ ps：由于模型最后没有经过softmax，所以多分类下loss function请�
 
 
 
+### How to load dataset
+
+关于读入的数据集可以有三种方法制作，详情点[这里](dataset/README.md)
+
+
+
 ### Example
 
 The direcoty `examples/` has simple examples for using pytorch<br>
